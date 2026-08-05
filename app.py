@@ -79,7 +79,7 @@ Return your response in Markdown using the following format:
 
 def analyze_resume(client, pdf_file, jd):
     response = client.models.generate_content(
-        model="gemini-2.5-flash",
+        model="gemini-3.6-flash",
         contents=[
             PROMPT,
             jd,
